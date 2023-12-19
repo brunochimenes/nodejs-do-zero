@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node src/server.js",
     "dev": "node --env-file=.env --watch --no-warnings src/server.js",
     "table": "node --env-file=.env src/models/Videos.js"
   },
